@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-useDarkTheme.js is our custom hook to import where it is needed. 
+<b>useDarkTheme.js</b> is our custom hook to import where it is needed. 
 App.js is (in this case) our target. 
 App.css in body we declare our colors as variable (to make things more scalable), adding our custom .dark-mode class with accent colors when switching to dark mode .
 
