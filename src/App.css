@@ -1,0 +1,29 @@
+body {  
+  /* Light Mode*/
+  --color : rgb(20, 20, 20);
+  --background-color : #e4e4e4;
+ 
+  color : var(--color);
+  background-color : var(--background-color);
+  transition: 800ms;
+}
+
+body.dark-mode { 
+  --color : #e4e4e4;
+  --background-color :rgb(20, 20, 20);
+}
+
+button { 
+  cursor: pointer;
+  color: var(--color);
+  border : 3px solid var(--color);
+  background-color: var(--background-color);
+  padding : 1rem 2rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.App {
+  text-align: center;
+}
+ 
